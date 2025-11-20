@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vbh;
+    border-radius: 50px;
+    text-align: center;
+}
+header { 
+    display: flex;
+    justify-content: space-between;
+    background-color: #ef5b00;
+    position: fixed;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    top: 0%;
+}
+
+
+.perguntas input{
+ width: 250px;
+ height: 30px;
+ border-radius: 3px;
+ justify-content:space-around;
+ align-content:space-between ;
+ flex-flow: column wrap-reverse;
+ font-size: larger;
+ flex-direction: column;
+}
+
+.input-box {
+   position: relative;
+   margin-bottom: 15px;
+   height: 30px;
+   width: 300px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.input-box i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: gray;
+}
+
+.button input{
+    border-radius: 3px; 
+    justify-content: end;
+    align-items: flex-end;
+    background-color: #ef5b00;
+    color: aliceblue;
+    border: 0;
+    width: 90px;
+    height: 30px;
+    font-size: large;
+    top: 10px;
+}
+
+.button1 input{
+    border-radius: 3px; 
+    justify-content: end;
+    align-items: flex-end;
+    background-color: #ef5b00;
+    color: aliceblue;
+    border: 0;
+    width: 150px;
+    height: 36px;
+    font-size: large;
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Montserrat" sans-serif;
+    background-color: #ffff;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.container {
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.input-box {
+   position: relative;
+   margin-bottom: 15px;
+   height: 30px;
+   width: 300px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.input-box i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: gray;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    margin: 10px 0;
+}
+
+.options a {
+    text-decoration: none;
+}
+
+
+main{
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+     top: 800px;
+    left: 1200px;
+}
+
+.bx bxs-user::before{
+    justify-content: flex-start;
+} 
+
+.button1 input {
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #ef5b00;
+    font-size: 15px;
+    font-family: "Fira Sans", sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+    border-color: 0;
+    border: 0;
+}
+
+.button2 input {
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    border-color:#ef5b00 ;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-family: "Fira Sans", sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: #ef5b00;
+    text-align: center;
+}
+    /*border-color: 0;
+    border: 0;/*
+}
