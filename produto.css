@@ -10,7 +10,7 @@ header {
     align-items: center;
     color: aliceblue;
     font-family: "Montserrat", sans-serif;
-    flex-direction: column;
+    flex-direction: row;
 }
 /*.caixa{
     position: relative;
@@ -24,7 +24,7 @@ header {
     height: 60px; 
 }*/
 .caixa{
-    position: static;
+   
     border-radius: 3px;
     border-color: #ef5b00;
     width: 200px;
@@ -40,6 +40,16 @@ header {
 
 }
 
+.card1{
+     border: 3px solid #ef5b00; 
+     border-radius: 3px;
+     margin: 2px;
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+
 
 .botao input{
     width: 90px;
@@ -50,9 +60,9 @@ header {
     font-size: 15px;
     font-family: "Fira Sans", sans-serif;
     justify-content: flex-end;
-    align-items:end;
+    /*align-items:end;*
     color: #ef5b00;
-    text-align: center;
+    text-align: center;*/
 }
 
 /*
@@ -69,13 +79,8 @@ header {
     display: flexbox;
 }*/
 footer{
-    position: fixed;
     display: flex;
     justify-content: end;
-    bottom: 0px;
-    left: 200px;
-
-
 
 }
 

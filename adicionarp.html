@@ -14,10 +14,21 @@
         <h1> Adicionar Produto</h1>
     </header>
     <div class="f">
-       
-        <input type="file">
-         <div class="f1">
-        <input type="text" placeholder="Código de Barras" size="10px" ;><input type="image"></div>
+                <div class="f1">
+        <input type="file" id="fileInput" accept="image/*">
+        <label for="fileInput">
+            <img src="fotos/mais.png" height="40rem" style="border: 2px solid #ef5b00; border-radius: 3px; padding: 18px;" class="upload-image" alt="Clique para enviar">
+        </label></div>
+
+            <div class="codigo-barras">
+                <input type="text" placeholder="Código de Barras" size="10px"> 
+                <input type="file"
+                    id="fileInput" accept="image/*">
+                <label for="fileInput">
+                    <img src="fotos/codigo de barras.png" height="50rem" class="upload-image" alt="Clique para enviar">
+                </label>
+            </div>
+        
         <input type="text" placeholder="Nome produto">
         <input type="text" placeholder="Quantidade em estoque">
         <input type="text" placeholder="Data de validade">

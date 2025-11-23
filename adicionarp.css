@@ -28,9 +28,6 @@ header {
 }
 .f1{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .f input {
@@ -68,3 +65,23 @@ footer{
 .salvar{
     color: aliceblue;
 }
+ #fileInput {
+        display: none;
+    } 
+
+.upload-image {
+    cursor: pointer;
+    transition: 0.2s;
+    }
+ 
+.upload-image:hover {
+    opacity: 0.8;
+    }
+.codigo-barras input{
+    position:sticky;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    }
