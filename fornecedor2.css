@@ -1,88 +1,166 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-    justify-content: center;
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: "Montserrat" sans-serif;
 }
-body{
+header {
+    background-color: #ef5b00;
     display: flex;
-    justify-content: center;
     align-items: center;
-    min-height: 100vbh;
-    border-radius: 50px;
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    flex-direction: row;
+    height: 80px;
     text-align: center;
 }
-header { 
+/*.caixa{
+    position: relative;
     display: flex;
+    flex-direction: ;
+    padding:80px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 100px;
+    height: 60px; 
+}*/
+.caixa{
+    margin: 20px;
+    display: flex;
+    justify-content:end;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 3px;
+    border: 4px solid  #ef5b00;;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.botao{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    bottom: 1px; 
+    /*left: 100px;
+    bottom: 0px;
+    margin: 50px;*/
+
+}
+.caixa2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    gap: 1px;
+}
+
+.card1{
+     border: 3px solid #ef5b00; 
+     border-radius: 3px;
+     margin: 2px;
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.botao input{
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    border-color:#ef5b00 ;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-family: "Fira Sans", sans-serif;
+    padding: 10px;
+    
+    /*align-items:end;*
+    color: #ef5b00;
+    text-align: center;*/
+}
+
+/*
+.box-big{
     background-color: #ef5b00;
     position: fixed;
-    color: aliceblue;
-    font-family: "Poppins", sans-serif;
-    top: 0%;
-}
-
-
-.perguntas input{
- width: 250px;
- height: 30px;
- border-radius: 3px;
- justify-content:space-around;
- align-content:space-between ;
- flex-flow: column wrap-reverse;
- font-size: larger;
- flex-direction: column;
-}
-
-.input-box {
-   position: relative;
-   margin-bottom: 15px;
-   height: 30px;
-   width: 300px;
-}
-
-.input-box input {
+    bottom: 0;
     width: 100%;
-    padding: 10px 10px 10px 40px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
+    height: 110px;
+    
+}
+/*footer{
+    position: fixed;
+    display: flexbox;
+}*/
+footer{
+    display: flex;
+    justify-content: end;
+
 }
 
-.input-box i {
+/*
+.configuraçao{
+    align-items: center;
     position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 18px;
-    color: gray;
+    bottom: 0px;
+    left: 20px;
+    height: 90px;
+    color: #ffff;
+    display: flexbox;
+    align-content: flex-start;
+    font-size: 13px;
 }
 
-.button input{
-    border-radius: 3px; 
-    justify-content: end;
-    align-items: flex-end;
-    background-color: #ef5b00;
-    color: aliceblue;
-    border: 0;
-    width: 90px;
-    height: 30px;
-    font-size: large;
-    top: 10px;
+.notificaçao{
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+    height: 90px;
+    color: #ffff;
+    display: flexbox;
+    align-content: flex-start;
+    font-size: 13px;
+
 }
 
-.button1 input{
-    border-radius: 3px; 
-    justify-content: end;
-    align-items: flex-end;
-    background-color: #ef5b00;
-    color: aliceblue;
-    border: 0;
-    width: 150px;
-    height: 36px;
-    font-size: large;
+.inicio{
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    left: 180px;
+    height: 90px;
+    color: #ffff;
+    align-content: flex-start;
+    font-size: 13px;
+    
 }
+
+.fale{
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    height: 90px;
+    left: 260px;
+    color: #ffff;
+    display: flexbox;
+    align-content: flex-start;
+    font-size: 13px;
+
+}
+
+.perfil{
+    align-items:flex-start;
+    position: absolute;
+    bottom: 0px;
+    left: 340px;
+    height: 90px;
+    color: #ffff;
+    align-content: flex-start;
+    font-size: 13px;
+}
+    */

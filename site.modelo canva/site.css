@@ -7,19 +7,34 @@
     outline: none;
     border: none;
     font-family: "Poppins" sans-serif;
+    text-decoration: none;
 
 
 }
 header {
+    position: fixed;
+    width: 100%;
     background-color: #ef5b00;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    position: fixed;
-    width: 500px;
-   
+}
+.Bri{
+    padding: 30px;
+    
+
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+    align-items: center;
+    gap: 1px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
 
 }
 .funcionalidades{
@@ -36,6 +51,7 @@ header {
     justify-content: flex-end;
     justify-content: space-around;
     color: #fff;
+    
 
 }
 
@@ -44,27 +60,24 @@ body {
 }
 
 .pag1 {
-    
     padding: 7rem;
     background-color: black;
     color:#fff;
-    width: 100%;
-    display: flex;
-    flex-direction:row;
     font-size: larger;
     font-weight: 170;
-    display: flex;
     flex-direction: row;
-
-
 }
+
 .slogan{
-    position: relative;
     display: flex;
     flex-direction: column;
+}
+.tudo{
+    display: flex;
     justify-content: center;
-    justify-items:left 50px;
-    text-decoration: none;
+    align-items: center;
+    justify-content:space-between;
+
 }
 
 .botão input {
@@ -104,20 +117,46 @@ body {
 }
 
 .pag3 {
+    padding: 40px;
     bottom: 0px;
-    margin: 0px;
     background-color: #ef5b00;
     height: 650px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
 }
+.funcionalidades{
+    font-size: 25px;
+}
+/*
 .pag4 {
     background-color: grey;
-    width: 100%;
     height: 650px;
-}
+}*/
+
 .rodapé{
     background-color: black;
-    color: #ef5b00;
     display: flex;
-    flex-direction:column;
-    align-items:flex-end;
+    flex-direction:row;
+    color: #fff;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+
+}
+
+.email{
+   display: flex; 
+   flex-direction: row;
+
+}
+.redes{
+    display: flex;
+    flex-direction: row-reverse;
+    
 }

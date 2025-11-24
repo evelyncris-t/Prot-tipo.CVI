@@ -14,43 +14,24 @@ header {
     font-family: "Montserrat", sans-serif;
 
 }
-
-.f {
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.info input{
+    border: 2px solid #ef5b00;
+    border-radius: 3px;
+    padding: 4px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    gap: 1rem;
+    gap: 1.5rem;
     
-
-
-
-}
-.f1{
-    display: flex;
-    padding: 20px;
 }
 
-.f input {
-    border-radius: 3px;
-    border-color: #ef5b00;
-    /*height: 4rem;
-    border: 10px;
-    border-color: black;
-    border-radius: 10px;
-    font-size: 20px ;*/
-
-
-}
-
-footer{
-    background-color: #ef5b00;
-    position: fixed;
-    bottom: 9rem;
-    height: 5rem;
-    
-
-}
 .salvar input{
 
     width:100%;
@@ -65,29 +46,4 @@ footer{
 }
 .salvar{
     color: aliceblue;
-}
- #fileInput {
-        display: none;
-    } 
-
-.upload-image {
-    cursor: pointer;
-    transition: 0.2s;
-    }
- 
-.upload-image:hover {
-    opacity: 0.8;
-}
-.codigo-barras input{
-    display: flex;
-    flex-direction: row;
-}
-.codigo-barras{
-    display: flex;
-    flex-direction: row;
-}
-.f input{
-    display: flex;
-    justify-content: end; 
-
 }
