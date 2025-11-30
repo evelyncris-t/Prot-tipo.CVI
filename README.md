@@ -1,0 +1,1 @@
+O nosso projeto se chama CVI Commerce, ele é o protótipo para um aplicativo de gerenciamento de estoque, tem como principal objetivo ajudar os pequenos empreendedores a gerir seu comercio. Ele é voltado para aparelhos celular, por conta de sua praciticidade e comum acesso.
