@@ -11,6 +11,7 @@
 
 
 }
+
 header {
     position: fixed;
     width: 100%;
@@ -19,76 +20,81 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-top: 1rem;
+    padding: 20px;
     padding-bottom: 1rem;
+    color: black;
 }
-.Bri{
-    padding: 30px;
-    
-
+img {
+  max-width: 100%;
+  height: auto;
 }
-.texto{
-    display: flex;
-    justify-content: center;
-    justify-content:space-around;
-    align-items: center;
-    gap: 1px;
-    padding: 10px;
-    margin: 10px;
+.menu {
     font-size: 20px;
-
-}
-.funcionalidades{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 2rem;
-    font-family: "Poppins", sans-serif;
+    justify-content: space-evenly;
+    font-family: Poppins, sans-serif;
+    color: black;
+    padding-inline-end: 40px;
+    max-width: 100%;
 }
-.menu{
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    justify-content: flex-end;
-    justify-content: space-around;
-    color: #fff;
-    
-
-}
-
-body {
-    background-color: rgb(255, 255, 255);
-}
-
 .pag1 {
     padding: 7rem;
     background-color: black;
-    color:#fff;
+    color: #fff;
     font-size: larger;
     font-weight: 170;
     flex-direction: row;
 }
-
-.slogan{
+.slogan {
     display: flex;
     flex-direction: column;
 }
-.tudo{
+
+.tudo {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 
 }
 
 .botão input {
-
     background-color: #ef5b00;
     border-radius: 10px;
     color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 10px;
     border: #ef5b00;
+    width: 150px;
+    height: 50px;
 }
+
+
+.Bri {
+    padding: 30px;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.funcionalidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
 
 .pag2 {
     background-color: rgb(197, 188, 188);
@@ -97,8 +103,7 @@ body {
 }
 
 
-.pag
-#caixa1 {
+.pag #caixa1 {
     background-color: aqua;
     border-radius: 300px;
     float: left;
@@ -120,7 +125,7 @@ body {
     padding: 40px;
     bottom: 0px;
     background-color: #ef5b00;
-    height: 650px;
+    max-height: 650px;
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -128,35 +133,130 @@ body {
     flex-direction: row;
 
 }
-.funcionalidades{
+
+.funcionalidades {
     font-size: 25px;
 }
-/*
-.pag4 {
-    background-color: grey;
-    height: 650px;
-}*/
 
-.rodapé{
-    background-color: black;
-    display: flex;
-    flex-direction:row;
+.pag4 {
+    background-color: rgb(0, 0, 0);
+    max-height: 650px;
+    font-size: 1rem;
     color: #fff;
-    justify-content: space-around;
-    justify-content: center;
+    text-align: start;
     align-items: center;
-    height: 100px;
+}
+
+.p4 {
+    /* background-color: grey;*/
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.elementos {
+    /*  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;*/
+    color: #fff;
+    padding-top: 50px;
+    gap: 3rem;
+    padding-left: 20px;
+}
+
+.ultimo {
+    justify-content: center;
+    align-items: end;
+}
+
+.elementos2 {
+    /* display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: #fff;*/
+    color: #fff;
+    padding-top: 50px;
+    gap: 3rem;
+    padding-left: 20px;
+}
+
+.p41 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 10px;
 
 }
 
-.email{
-   display: flex; 
-   flex-direction: row;
+.p42 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
 
 }
-.redes{
+
+.p43 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.p44 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.p45 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.p46 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.p47 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.rodapé {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    padding: 10px;
+
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.redes {
     display: flex;
     flex-direction: row-reverse;
-    
+
 }
