@@ -43,6 +43,17 @@ form input{
     top: 100px;
     left: 50px;
     color: #ef5b00;
+    border: 0.3rem solid #ef5b00;
+    padding: 1.2rem;
+    border-radius: 10px;
+    max-width: 16rem;
+    max-height: 8rem;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    font-size: 1.3rem;
 }
 
 
@@ -50,7 +61,7 @@ form input{
     position: absolute;
     top: 100px;
     right: 50px;
-    color: #ef5b00;
+    
 }
 .card3{
     position: absolute;
