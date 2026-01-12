@@ -75,7 +75,9 @@ img {
 
 
 .Bri {
-    padding: 30px;
+    padding: 40px;
+    padding-top: 60px;
+    padding-left: 350px ;
 }
 
 .texto {
@@ -151,6 +153,7 @@ h3{
     height: 4.5rem;
     background-color: #ef5b00; 
     border-radius: 6px;
+    font-family:"", sans-serif;
 }
 .pag4 {
     background-color: rgb(0, 0, 0);
@@ -179,10 +182,6 @@ h3{
     padding-top: 35px;
     gap: 3rem;
     padding-left: 50px;
-}
-
-.ultimo {
-    
 }
 
 .elementos2 {
@@ -273,3 +272,187 @@ h3{
     flex-direction: row-reverse;
 
 }
+
+.hamburger {
+    display: none;
+    font-size: 32px;
+    cursor: pointer;
+    color: black;
+}
+
+@media (max-width: 768px) {
+
+    .hamburger {
+        display: block;
+        margin-right: 40px;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 90px;
+        right: 20px;
+        background-color: #ef5b00;
+        padding: 15px;
+        border-radius: 8px;
+        flex-direction: column;
+    }
+
+    .menu a {
+        display: block;
+        margin: 10px 0;
+        color: black;
+        font-size: 18px;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .menu {
+        gap: 1.5rem;
+    }
+
+    .pag1 {
+        padding: 5rem;
+    }
+
+    .texto {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 18px;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+
+    .pag1 {
+        flex-direction: column;
+        padding: 4rem 2rem;
+        text-align: center;
+    }
+
+    .slogan {
+        align-items: center;
+        text-align: center;
+    }
+
+    .tudo {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .texto {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .pag2 {
+        height: auto;
+        padding: 3rem 1.5rem;
+    }
+
+    .pag3 {
+        flex-direction: column;
+        gap: 2rem;
+        max-height: none;
+        padding: 3rem 1.5rem;
+    }
+
+    .p4 {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .elementos,
+    .elementos2 {
+        padding-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rodapé {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0;
+        gap: 1rem;
+    }
+
+    .email,
+    .redes {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header {
+        padding: 14px;
+    }
+
+    .pag1 {
+        padding: 3rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    .texto {
+        font-size: 18px;
+    }
+
+    .botão input {
+        width: 100%;
+        max-width: 220px;
+        font-size: 1.2rem;
+    }
+
+    .Bri {
+        padding-left: 0;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    h3 {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .p41,
+    .p42,
+    .p43,
+    .p44,
+    .p45,
+    .p46,
+    .p47 {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .pag1 {
+        padding: 2.5rem 1rem;
+    }
+
+    .texto {
+        font-size: 17px;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+}
+
+
