@@ -11,6 +11,15 @@
 
 
 }
+.textinho{
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-align:justify;
+    margin-left: 20px;
+}
 
 header {
     position: fixed;
@@ -127,6 +136,12 @@ img {
     left: 100px;
     background-color: rgb(255, 0, 0);
 }
+.pag2 img {
+    max-width:400px;
+    max-height:400px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .pag3 {
     padding: 40px;
@@ -143,6 +158,9 @@ img {
 
 .funcionalidades {
     font-size: 25px;
+}
+.pag3 img {
+    width: 280px;
 }
 .pag4 {
     max-width: 5;
@@ -202,6 +220,13 @@ h3{
     padding: 10px;
 
 }
+.p41 img {
+    height:6rem; 
+    margin:10px; 
+    background-color: #ef5b00; 
+    border: 1rem solid #ef5b00; 
+    border-radius: 100%;
+}
 
 .p42 {
     display: flex;
@@ -210,12 +235,26 @@ h3{
     padding: 10px;
 
 }
+.p42 img {
+    height:6rem; 
+    margin:10px; 
+    background-color: #ef5b00; 
+    border: 1rem solid #ef5b00; 
+    border-radius: 100%;
+}
 
 .p43 {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
+}
+.p43 img{
+    height:6rem; 
+    margin:10px; 
+    background-color: #ef5b00; 
+    border: 1rem solid #ef5b00; 
+    border-radius: 100%;
 }
 
 .p44 {
@@ -224,12 +263,27 @@ h3{
     align-items: center;
     padding: 10px;
 }
+.p44 img{
+    height:6rem; 
+    margin:10px; 
+    background-color: #ef5b00; 
+    border: 1rem solid #ef5b00; 
+    border-radius: 100%;
+
+}
 
 .p45 {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
+}
+.p45 img {
+     height:6rem; 
+    margin:10px; 
+    background-color: #ef5b00; 
+    border: 1rem solid #ef5b00; 
+    border-radius: 100%;
 }
 
 .p46 {
@@ -239,6 +293,13 @@ h3{
     padding: 10px;
 }
 
+.p46 img {
+    height:6rem; 
+    margin:10px; 
+    background-color: #ef5b00; 
+    border: 1rem solid #ef5b00; 
+    border-radius: 100%;
+}
 .p47 {
     display: flex;
     flex-direction: row;
@@ -246,6 +307,13 @@ h3{
     justify-content: center;
     padding: 10px;
     padding-bottom: 10px;
+}
+.p47 img {
+    height:6rem; 
+    margin:10px; 
+    background-color: #ef5b00; 
+    border: 1rem solid #ef5b00; 
+    border-radius: 100%;
 }
 
 .rodapé {
@@ -391,6 +459,8 @@ h3{
 
     .email,
     .redes {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
     }
 }
@@ -407,7 +477,7 @@ h3{
     }
 
     .texto {
-        font-size: 18px;
+        font-size: 1rem;
     }
 
     .botão input {
@@ -417,9 +487,15 @@ h3{
     }
 
     .Bri {
-        padding-left: 0;
+        padding-left: 4rem;
         padding-top: 30px;
-        text-align: center;
+        align-items: center;
+        text-align: justify;
+
+    }
+    .textinho {
+        text-align: justify;
+
     }
 
     h3 {
@@ -437,6 +513,9 @@ h3{
     .p47 {
         justify-content: center;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
     }
 }
 
@@ -447,12 +526,11 @@ h3{
     }
 
     .texto {
-        font-size: 17px;
+        font-size: 1rem;
     }
 
     .menu a {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
-
 
